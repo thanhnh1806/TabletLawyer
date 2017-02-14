@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#003B50"
+            android:gravity="center"
+            android:paddingBottom="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:maxLength="50"
+        android:background="@drawable/username"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"
+        android:id="@+id/name"/>
+
+    <requestFocus/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@drawable/edittext"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:maxLength="50"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:id="@+id/email"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/edittext"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:maxLength="20"
+            android:layout_gravity="center"
+            android:password="true"
+            android:paddingBottom="3dp"
+            android:id="@+id/newPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:background="@drawable/edittext"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:layout_gravity="center"
+        android:password="true"
+        android:paddingBottom="3dp"
+        android:id="@+id/confirmPass"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:background="@drawable/password"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:layout_gravity="center"
+        android:paddingBottom="3dp"
+        android:id="@+id/mobile"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#79D5F5"
+            android:background="@drawable/button_style"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:id="@+id/register"/>
+
+
+</LinearLayout>
+
+

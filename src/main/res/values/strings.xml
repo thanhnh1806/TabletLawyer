@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabletLawyer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_volume">Volume</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_secure">Secure</string>
+    <string name="action_fullScreen">FullScreen</string>
+    <string name="message"><b>Tap two locations in the map</b></string>
+    <string name="distance">Distance:</string>
+    <string name="time">Time:</string>
+    <string name="cost">Cost:£</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="regionArray">
+        <item>Cheshire</item>
+        <item>Cumbria 1</item>
+        <item>Cumbria 2</item>
+        <item>Derbyshire</item>
+        <item>Greater Manchester</item>
+        <item>Lancashire</item>
+        <item>Leicestershire</item>
+        <item>Lincolnshire</item>
+        <item>Merseyside</item>
+        <item>North Wales 1</item>
+        <item>North Wales 2</item>
+        <item>Northampton</item>
+        <item>Nottinghamshire</item>
+        <item>Staffordshire</item>
+        <item>Warwickshire</item>
+        <item>Gwent</item>
+        <item>South Wales</item>
+        <item>Hertfordshire</item>
+        <item>Northumbria 1</item>
+        <item>Northumbria 2</item>
+        <item>South Yorksihre</item>
+        <item>West Yorksihre</item>
+        <item>North Yorksihre 1</item>
+        <item>North Yorksihre 2</item>
+        <item>West Mercia 1</item>
+        <item>West Mercia 2</item>
+        <item>Durham</item>
+    </string-array>
+    <string-array name="policeStationArray">
+        <item></item>
+        <item>Bolton Central</item>
+        <item>Wigan PS</item>
+        <item>Bury</item>
+        <item>Chadderton PS</item>
+        <item>Tameside PS</item>
+        <item>Cheadle Heath</item>
+        <item>Central Park</item>
+        <item>Newton Heath</item>
+        <item>Longsight</item>
+        <item>Pendleton</item>
+        <item>Swinton</item>
+
+        <item>Blackpool</item>
+        <item>Blackburn PS</item>
+        <item>Lancaster PS</item>
+        <item>Burnley PS</item>
+        <item>Preston PS</item>
+        <item>Skelmersdale</item>
+    </string-array>
+    <string-array name="allegationArray">
+        <item></item>
+        <item>THEFT</item>
+        <item>ROBBERY</item>
+        <item>ARMED ROBBERY</item>
+        <item>BURGLARY</item>
+        <item>AGGRAVATED BURGLARY</item>
+        <item>ATTEMPTED DECEPTION</item>
+        <item>DECEPTION</item>
+        <item>FRAUD</item>
+        <item>T.W.O.C</item>
+        <item>HANDLING</item>
+        <item>GOING EQUIPPED</item>
+        <item>CRIMINAL DAMAGE</item>
+        <item>COMMON ASSAULT</item>
+        <item>S.47 ASSAULT (ABH)</item>
+        <item>S.20 ASSAULT (GBH)</item>
+        <item>S.18 ASSAULT (GBH WITH INTENT)</item>
+        <item>ATTEMPTED MURDER</item>
+        <item>MURDER</item>
+        <item>POSSESSION OF CLASS C DRUG</item>
+        <item>POSSESSION OF CLASS B DRUG</item>
+        <item>POSSESSION OF CLASS A DRUG</item>
+        <item>POSSESSION OF CLASS C DRUG WITH INTENTION TO SUPPLY</item>
+        <item>POSSESSION OF CLASS B DRUG WITH INTENTION TO SUPPLY</item>
+        <item>POSSESSION OF CLASS A DRUG WITH INTENTION TO SUPPLY</item>
+        <item>RIOTING</item>
+        <item>VIOLENT DISORDER</item>
+        <item>AFFRAY</item>
+        <item>FEAR/PROVOCATION OF VIOLENCE</item>
+        <item>INTENTIONAL HARASSMENT, ALARM OR DISTRESS</item>
+        <item>INCITING RACIAL HATRED</item>
+        <item>GROSS INDECENCY</item>
+        <item>INDIVIDUAL ASSAULT ON MALE</item>
+        <item>INDIVIDUAL ASSAULT ON FEMALE</item>
+        <item>BUGGERY (SEXUAL ASSAULT)</item>
+        <item>MALE RAPE (ASSAULT BY PENETRATION)</item>
+        <item>HARASSMENT</item>
+        <item>FAILURE TO SURRENDER</item>
+        <item>WITNESS INTIMIDATION</item>
+        <item>ATTEMPT TO PERVERT THE COURT OF JUSTICE</item>
+        <item>PERVERTING THE COURT OF JUSTICE</item>
+        <item>CONSPIRACY TO MURDER</item>
+        <item>CONSPIRACY TO SUPPLY CLASS C DRUG</item>
+        <item>CONSPIRACY TO SUPPLY CLASS B DRUG</item>
+        <item>CONSPIRACY TO SUPPLY CLASS A DRUG</item>
+        <item>CONSPIRACY TO PERVERT THE COURT OF JUSTICE</item>
+        <item>CONSPIRACY TO STEAL</item>
+        <item>ARSON</item>
+        <item>ARSON WITH INTENTION TO ENDANGER LIFE</item>
+        <item>UNLAWFULLY AT LARGE</item>
+        <item>CONSPIRACY TO EVADE EXCISE DUTY</item>
+        <item>MONEY LAUNDERING</item>
+        <item>CYBER CRIME</item>
+        <item>DOWNLOADING INDECENT IMAGES</item>
+        <item>SENDING OFFENSIVE AND MALICIOUS COMMUNICATIONS</item>
+    </string-array>
+    <string-array name="noYesArray">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <string-array name="feeEarnerArray">
+        <item></item>
+        <item>Ewan Laurence</item>
+        <item>Adam Brown</item>
+        <item>Laura Stewart</item>
+        <item>Fred Close</item>
+        <item>Jane Dean</item>
+    </string-array>
+    <string-array name="sampleArray">
+        <item>Intimate</item>
+        <item>Non Intimate</item>
+    </string-array>
+    <string-array name="searchArray">
+        <item>Warrant</item>
+        <item>On Arrest</item>
+        <item>Inspectors Authority</item>
+    </string-array>
+    <string-array name="coAccusedArray">
+        <item>In Custody</item>
+        <item>Outstanding as Wanted</item>
+    </string-array>
+    <string-array name="noYesNAArray">
+        <item>No</item>
+        <item>Yes</item>
+        <item>NA</item>
+    </string-array>
+    <string-array name="bailArray">
+        <item>Unconditional</item>
+        <item>Conditional</item>
+    </string-array>
+    <string-array name="reasonArray">
+        <item>Reason</item>
+    </string-array>
+
+    <string-array name="reportArray1">
+        <item>Filter by FE</item>
+        <item>Filter by Police Station</item>
+    </string-array>
+    <string-array name="reportArray2">
+        <item>Police Station</item>
+        <item>FE</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="resetPassword">Lost Password ?</string>
+    <string name="support">Support</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detailsOfDisclosure"><b>Details of Disclosure:</b> (by who, full notes. If typed disclosure – note of further questions\nraised and responses. If “staged” disclosure – time of each disclosure):</string>
+    <string name="clientDecl"><b>Client Declaration:</b> I confirm that I have been advised as outlined above and understand\nthe advice given:</string>
+    <string name="interpreterDecl"><b>Interpreter Declaration:</b> In interpreting the conversations between the lawyer and his client,\nI agree to translate everything discussed to the best of my understanding and skill and I\nacknowledge that this conversation is privileged and cannot be disclosed to any third party:</string>
+    <string name="CCL_TOBCF25"><b>CCL/TOB</b> sent:</string>
+    <string name="clientIDCF25"><b>Client ID</b>  verified:</string>
+    <string name="conflictCheckCF25">\n<b>Conflict check</b>  date</string>
+    <string name="external_dir">GetSignature</string>
+
+
+</resources>

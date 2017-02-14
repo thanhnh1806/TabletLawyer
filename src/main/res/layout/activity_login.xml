@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingTop="30dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/applogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:contentDescription="logo"
+        android:layout_weight="1" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="Email"
+        android:background="@drawable/username"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:maxLength="50"
+        android:id="@+id/username"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="Password"
+        android:background="@drawable/password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:password="true"
+        android:paddingBottom="3dp"
+        android:id="@+id/password"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Sign in"
+        android:textColor="#79D5F5"
+        android:background="@drawable/button_style"
+        android:layout_margin="10dp"
+        android:id="@+id/signin"
+        android:onClick="signIn"
+        android:layout_weight="1" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:text="Register"
+            android:textColor="#00ABEC"
+            android:id="@+id/newUser"
+            android:clickable="true"
+            android:onClick="newUser"
+            android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/resetPassword"
+        android:textColor="#00ABEC"
+        android:onClick="resetPassword"
+        android:clickable="true"
+        android:id="@+id/resetPassword"
+        android:layout_weight="1" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/support"
+            android:textColor="#00ABEC"
+            android:id="@+id/support"
+            android:clickable="true"
+            android:onClick="openSite"
+            android:layout_weight="1" />
+
+
+</LinearLayout>
+
+</ScrollView>
